@@ -1,6 +1,18 @@
 public class Cidadao {
     private String nome;
     private int idade;
+
+    @Override
+    public String toString() {
+        return "Cidadao{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", endereco='" + endereco + '\'' +
+                ", iptu='" + iptu + '\'' +
+                ", telefone='" + telefone + '\'' +
+                '}';
+    }
+
     private String endereco;
     private String iptu;
     private String telefone;

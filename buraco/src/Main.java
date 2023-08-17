@@ -13,5 +13,6 @@ public class Main {
         cidadao.setIptu("123");
         cidadao.setTelefone("459999999");
         System.out.println(cidadao.getNome());
+        System.out.println(cidadao.toString());
     }
 }
